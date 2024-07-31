@@ -1,8 +1,5 @@
-//<div id="parent">
-//  <div id="child">
-//    <h1> I am react child <h1>
-// </div>
-// </div>
+import React from "react";
+import ReactDOM from "react-dom/client";
 const heading = React.createElement("div", { id: "parent" }, [
   React.createElement("div", { id: "child1" }, [
     React.createElement("h1", {}, "I am react parent"),

@@ -4,6 +4,8 @@
   "description": "This is react course by Swaroop",
   "main": "App.js",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "index.html",
     "test": "jest"
   },
   "repository": {
@@ -13,7 +15,7 @@
   "author": "Swaroop",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/swaroop1995/namaste-react/issues"
+    "url": "https:npm//github.com/swaroop1995/namaste-react/issues"
   },
   "homepage": "https://github.com/swaroop1995/namaste-react#readme",
   "devDependencies": {

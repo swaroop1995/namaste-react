@@ -1,44 +1,31 @@
 import RestaurantCard from "./Restaurantcard";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import Shimmer from "./Shimmer";
 
 const Body = () => {
   // local state variable-Super powerful variable
-  const [listOfRestaurants, setFilteredList] = useState([
-    {
-      data: {
-        id: 1,
-        resName: "Meghana Foods",
-        cuisine: ["Biryani", "North India", "Asian"],
-        resImageUrl:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQef1myAJ1CVnUiL4Zs74GfNPT7lgknzMdTCA&s",
-        rating: 4.4,
-        deliveryTime: 37,
-      },
-    },
-    {
-      data: {
-        id: 2,
-        resName: "KFC",
-        cuisine: ["Burger", "Fast Food"],
-        resImageUrl:
-          "https://b.zmtcdn.com/data/pictures/chains/2/2900222/93776f3249312397e2c2ba274b4812ec.jpg?fit=around|750:500&crop=750:500;*,*",
-        rating: 3,
-        deliveryTime: 22,
-      },
-    },
-    {
-      data: {
-        id: 3,
-        resName: "McDonalds",
-        cuisine: ["Burger", "French fries"],
-        resImageUrl:
-          "https://b.zmtcdn.com/data/pictures/chains/2/2900222/93776f3249312397e2c2ba274b4812ec.jpg?fit=around|750:500&crop=750:500;*,*",
+  let resList = [];
+  const [listOfRestaurants, setFilteredList] = useState(resList);
+  useEffect(() => {
+    setData();
+  }, []);
 
-        rating: 4.1,
-        deliveryTime: 22,
-      },
-    },
-  ]);
+  setData = async () => {
+    const URL =
+      "https://www.swiggy.com/dapi/restaurants/list/v5?lat=17.37240&lng=78.43780&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING";
+    const data = await fetch(URL);
+    const json = await data.json();
+    // console.log(
+    //   json.data.cards[1].card.card.gridElements.infoWithStyle.restaurants
+    // );
+    setFilteredList(
+      json.data.cards[1].card.card.gridElements.infoWithStyle.restaurants
+    );
+  };
+
+  if (listOfRestaurants.length === 0) {
+    return <Shimmer />;
+  }
 
   //Normal js variable
 
@@ -49,7 +36,7 @@ const Body = () => {
           className="filter-btn"
           onClick={() => {
             const filteredList = listOfRestaurants.filter(
-              (res) => res.data.rating > 4
+              (res) => res.info.avgRating == 3.7
             );
             console.log(filteredList);
             setFilteredList(filteredList);
@@ -60,7 +47,7 @@ const Body = () => {
       </div>
       <div className="res-container">
         {listOfRestaurants.map((restaurant) => (
-          <RestaurantCard key={restaurant.data.id} resData={restaurant} />
+          <RestaurantCard key={restaurant.info.id} resData={restaurant} />
         ))}
       </div>
     </div>

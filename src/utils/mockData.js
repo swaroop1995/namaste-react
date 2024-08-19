@@ -1,9 +1,9 @@
-const data = {
+const resList = {
   statusCode: 0,
   data: {
     statusMessage: "done successfully",
     pageOffset: {
-      nextOffset: "CJhlELQ4KIC47aDSvObTfjCnEzgC",
+      nextOffset: "CJhlELQ4KICw44z3pJibHTCnEzgC",
       widgetOffset: {
         NewListingView_category_bar_chicletranking_TwoRows: "",
         NewListingView_category_bar_chicletranking_TwoRows_Rendition: "",
@@ -14,6 +14,7 @@ const data = {
         restaurantCountWidget: "",
       },
     },
+
     cards: [
       {
         card: {
@@ -59,7 +60,7 @@ const data = {
                 {
                   id: "2786735",
                   imageId:
-                    "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/22/d94f8a12-6cb9-4b49-ab4d-7e4f452a0f09_PCTile.png",
+                    "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/8/8/09d27322-ce6b-4de3-8e54-2d959186ce8b_PCTilePCTile2.png",
                   action: {
                     link: "https://www.swiggy.com/collections/119017?collection_id=119017&header_title=Celerate+Shravan&tags=layout_FestiveEvent7&type=rcv2",
                     text: "Sharvan",
@@ -137,24 +138,24 @@ const data = {
                   description: "Burgers",
                 },
                 {
-                  id: "750248",
+                  id: "750131",
                   imageId:
-                    "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/f1263395-5d4a-4775-95dc-80ab6f3bbd89_shawarma.png",
+                    "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Dosa.png",
                   action: {
-                    link: "https://www.swiggy.com/collections/80402?collection_id=80402&tags=layout_Shawarma_Contextual&type=rcv2",
-                    text: "Shawarma",
+                    link: "https://www.swiggy.com/collections/80424?collection_id=80424&tags=layout_CCS_Dosa&type=rcv2",
+                    text: "Dosa",
                     type: "WEBLINK",
                   },
                   entityType: "BANNER",
                   accessibility: {
-                    altText: "restaurant curated for shawarma",
+                    altText: "restaurants curated for dosa",
                     altTextCta: "open",
                   },
                   entityId:
-                    "swiggy://collectionV2?collection_id=80402&tags=layout_Shawarma_Contextual",
+                    "swiggy://collectionV2?collection_id=80424&tags=layout_CCS_Dosa",
                   frequencyCapping: {},
                   externalMarketing: {},
-                  description: "Shawarma",
+                  description: "Dosa",
                 },
                 {
                   id: "750585",
@@ -177,24 +178,24 @@ const data = {
                   description: "South Indian",
                 },
                 {
-                  id: "750131",
+                  id: "750248",
                   imageId:
-                    "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Dosa.png",
+                    "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/f1263395-5d4a-4775-95dc-80ab6f3bbd89_shawarma.png",
                   action: {
-                    link: "https://www.swiggy.com/collections/80424?collection_id=80424&tags=layout_CCS_Dosa&type=rcv2",
-                    text: "Dosa",
+                    link: "https://www.swiggy.com/collections/80402?collection_id=80402&tags=layout_Shawarma_Contextual&type=rcv2",
+                    text: "Shawarma",
                     type: "WEBLINK",
                   },
                   entityType: "BANNER",
                   accessibility: {
-                    altText: "restaurants curated for dosa",
+                    altText: "restaurant curated for shawarma",
                     altTextCta: "open",
                   },
                   entityId:
-                    "swiggy://collectionV2?collection_id=80424&tags=layout_CCS_Dosa",
+                    "swiggy://collectionV2?collection_id=80402&tags=layout_Shawarma_Contextual",
                   frequencyCapping: {},
                   externalMarketing: {},
-                  description: "Dosa",
+                  description: "Shawarma",
                 },
                 {
                   id: "750587",
@@ -215,26 +216,6 @@ const data = {
                   frequencyCapping: {},
                   externalMarketing: {},
                   description: "Chinese",
-                },
-                {
-                  id: "750596",
-                  imageId:
-                    "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_chocolate icecream.png",
-                  action: {
-                    link: "https://www.swiggy.com/collections/83640?collection_id=83640&tags=layout_CCS_IceCreams&type=rcv2",
-                    text: "Ice Cream",
-                    type: "WEBLINK",
-                  },
-                  entityType: "BANNER",
-                  accessibility: {
-                    altText: "restaurants curated for icecream",
-                    altTextCta: "open",
-                  },
-                  entityId:
-                    "swiggy://collectionV2?collection_id=83640&tags=layout_CCS_IceCreams",
-                  frequencyCapping: {},
-                  externalMarketing: {},
-                  description: "Ice Cream",
                 },
                 {
                   id: "749868",
@@ -277,6 +258,26 @@ const data = {
                   description: "Idli",
                 },
                 {
+                  id: "750596",
+                  imageId:
+                    "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_chocolate icecream.png",
+                  action: {
+                    link: "https://www.swiggy.com/collections/83640?collection_id=83640&tags=layout_CCS_IceCreams&type=rcv2",
+                    text: "Ice Cream",
+                    type: "WEBLINK",
+                  },
+                  entityType: "BANNER",
+                  accessibility: {
+                    altText: "restaurants curated for icecream",
+                    altTextCta: "open",
+                  },
+                  entityId:
+                    "swiggy://collectionV2?collection_id=83640&tags=layout_CCS_IceCreams",
+                  frequencyCapping: {},
+                  externalMarketing: {},
+                  description: "Ice Cream",
+                },
+                {
                   id: "750581",
                   imageId:
                     "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_North Indian.png",
@@ -317,6 +318,25 @@ const data = {
                   description: "Shake",
                 },
                 {
+                  id: "749772",
+                  imageId:
+                    "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Noodles.png",
+                  action: {
+                    link: "https://www.swiggy.com/collections/80463?collection_id=80463&tags=layout_BAU_Contextual%2Cnoodles&type=rcv2",
+                    text: "Noodles",
+                    type: "WEBLINK",
+                  },
+                  entityType: "BANNER",
+                  accessibility: {
+                    altText: "restaurant curated for noodles",
+                    altTextCta: "open",
+                  },
+                  entityId: "80463",
+                  frequencyCapping: {},
+                  externalMarketing: {},
+                  description: "Noodles",
+                },
+                {
                   id: "750222",
                   imageId:
                     "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/17/58760e8e-324f-479e-88fa-31800120ea38_Rolls1.png",
@@ -335,25 +355,6 @@ const data = {
                   frequencyCapping: {},
                   externalMarketing: {},
                   description: "Rolls",
-                },
-                {
-                  id: "749772",
-                  imageId:
-                    "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Noodles.png",
-                  action: {
-                    link: "https://www.swiggy.com/collections/80463?collection_id=80463&tags=layout_BAU_Contextual%2Cnoodles&type=rcv2",
-                    text: "Noodles",
-                    type: "WEBLINK",
-                  },
-                  entityType: "BANNER",
-                  accessibility: {
-                    altText: "restaurant curated for noodles",
-                    altTextCta: "open",
-                  },
-                  entityId: "80463",
-                  frequencyCapping: {},
-                  externalMarketing: {},
-                  description: "Noodles",
                 },
                 {
                   id: "750225",
@@ -475,7 +476,7 @@ const data = {
                   {
                     id: "2786735",
                     imageId:
-                      "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/22/d94f8a12-6cb9-4b49-ab4d-7e4f452a0f09_PCTile.png",
+                      "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/8/8/09d27322-ce6b-4de3-8e54-2d959186ce8b_PCTilePCTile2.png",
                     action: {
                       link: "https://www.swiggy.com/collections/119017?collection_id=119017&header_title=Celerate+Shravan&tags=layout_FestiveEvent7&type=rcv2",
                       text: "Sharvan",
@@ -553,24 +554,24 @@ const data = {
                     description: "Burgers",
                   },
                   {
-                    id: "750248",
+                    id: "750131",
                     imageId:
-                      "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/f1263395-5d4a-4775-95dc-80ab6f3bbd89_shawarma.png",
+                      "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Dosa.png",
                     action: {
-                      link: "https://www.swiggy.com/collections/80402?collection_id=80402&tags=layout_Shawarma_Contextual&type=rcv2",
-                      text: "Shawarma",
+                      link: "https://www.swiggy.com/collections/80424?collection_id=80424&tags=layout_CCS_Dosa&type=rcv2",
+                      text: "Dosa",
                       type: "WEBLINK",
                     },
                     entityType: "BANNER",
                     accessibility: {
-                      altText: "restaurant curated for shawarma",
+                      altText: "restaurants curated for dosa",
                       altTextCta: "open",
                     },
                     entityId:
-                      "swiggy://collectionV2?collection_id=80402&tags=layout_Shawarma_Contextual",
+                      "swiggy://collectionV2?collection_id=80424&tags=layout_CCS_Dosa",
                     frequencyCapping: {},
                     externalMarketing: {},
-                    description: "Shawarma",
+                    description: "Dosa",
                   },
                   {
                     id: "750585",
@@ -593,24 +594,24 @@ const data = {
                     description: "South Indian",
                   },
                   {
-                    id: "750131",
+                    id: "750248",
                     imageId:
-                      "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Dosa.png",
+                      "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/f1263395-5d4a-4775-95dc-80ab6f3bbd89_shawarma.png",
                     action: {
-                      link: "https://www.swiggy.com/collections/80424?collection_id=80424&tags=layout_CCS_Dosa&type=rcv2",
-                      text: "Dosa",
+                      link: "https://www.swiggy.com/collections/80402?collection_id=80402&tags=layout_Shawarma_Contextual&type=rcv2",
+                      text: "Shawarma",
                       type: "WEBLINK",
                     },
                     entityType: "BANNER",
                     accessibility: {
-                      altText: "restaurants curated for dosa",
+                      altText: "restaurant curated for shawarma",
                       altTextCta: "open",
                     },
                     entityId:
-                      "swiggy://collectionV2?collection_id=80424&tags=layout_CCS_Dosa",
+                      "swiggy://collectionV2?collection_id=80402&tags=layout_Shawarma_Contextual",
                     frequencyCapping: {},
                     externalMarketing: {},
-                    description: "Dosa",
+                    description: "Shawarma",
                   },
                   {
                     id: "750587",
@@ -631,26 +632,6 @@ const data = {
                     frequencyCapping: {},
                     externalMarketing: {},
                     description: "Chinese",
-                  },
-                  {
-                    id: "750596",
-                    imageId:
-                      "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_chocolate icecream.png",
-                    action: {
-                      link: "https://www.swiggy.com/collections/83640?collection_id=83640&tags=layout_CCS_IceCreams&type=rcv2",
-                      text: "Ice Cream",
-                      type: "WEBLINK",
-                    },
-                    entityType: "BANNER",
-                    accessibility: {
-                      altText: "restaurants curated for icecream",
-                      altTextCta: "open",
-                    },
-                    entityId:
-                      "swiggy://collectionV2?collection_id=83640&tags=layout_CCS_IceCreams",
-                    frequencyCapping: {},
-                    externalMarketing: {},
-                    description: "Ice Cream",
                   },
                   {
                     id: "749868",
@@ -693,6 +674,26 @@ const data = {
                     description: "Idli",
                   },
                   {
+                    id: "750596",
+                    imageId:
+                      "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_chocolate icecream.png",
+                    action: {
+                      link: "https://www.swiggy.com/collections/83640?collection_id=83640&tags=layout_CCS_IceCreams&type=rcv2",
+                      text: "Ice Cream",
+                      type: "WEBLINK",
+                    },
+                    entityType: "BANNER",
+                    accessibility: {
+                      altText: "restaurants curated for icecream",
+                      altTextCta: "open",
+                    },
+                    entityId:
+                      "swiggy://collectionV2?collection_id=83640&tags=layout_CCS_IceCreams",
+                    frequencyCapping: {},
+                    externalMarketing: {},
+                    description: "Ice Cream",
+                  },
+                  {
                     id: "750581",
                     imageId:
                       "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_North Indian.png",
@@ -733,6 +734,25 @@ const data = {
                     description: "Shake",
                   },
                   {
+                    id: "749772",
+                    imageId:
+                      "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Noodles.png",
+                    action: {
+                      link: "https://www.swiggy.com/collections/80463?collection_id=80463&tags=layout_BAU_Contextual%2Cnoodles&type=rcv2",
+                      text: "Noodles",
+                      type: "WEBLINK",
+                    },
+                    entityType: "BANNER",
+                    accessibility: {
+                      altText: "restaurant curated for noodles",
+                      altTextCta: "open",
+                    },
+                    entityId: "80463",
+                    frequencyCapping: {},
+                    externalMarketing: {},
+                    description: "Noodles",
+                  },
+                  {
                     id: "750222",
                     imageId:
                       "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/17/58760e8e-324f-479e-88fa-31800120ea38_Rolls1.png",
@@ -751,25 +771,6 @@ const data = {
                     frequencyCapping: {},
                     externalMarketing: {},
                     description: "Rolls",
-                  },
-                  {
-                    id: "749772",
-                    imageId:
-                      "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Noodles.png",
-                    action: {
-                      link: "https://www.swiggy.com/collections/80463?collection_id=80463&tags=layout_BAU_Contextual%2Cnoodles&type=rcv2",
-                      text: "Noodles",
-                      type: "WEBLINK",
-                    },
-                    entityType: "BANNER",
-                    accessibility: {
-                      altText: "restaurant curated for noodles",
-                      altTextCta: "open",
-                    },
-                    entityId: "80463",
-                    frequencyCapping: {},
-                    externalMarketing: {},
-                    description: "Noodles",
                   },
                   {
                     id: "750225",
@@ -958,7 +959,7 @@ const data = {
                       avgRatingString: "4.1",
                       totalRatingsString: "10K+",
                       sla: {
-                        deliveryTime: 21,
+                        deliveryTime: 23,
                         lastMileTravel: 1.4,
                         serviceability: "SERVICEABLE",
                         slaString: "20-25 mins",
@@ -966,7 +967,7 @@ const data = {
                         iconType: "ICON_TYPE_EMPTY",
                       },
                       availability: {
-                        nextCloseTime: "2024-08-08 03:00:00",
+                        nextCloseTime: "2024-08-14 03:00:00",
                         opened: true,
                       },
                       badges: {
@@ -996,8 +997,8 @@ const data = {
                         },
                       },
                       aggregatedDiscountInfoV3: {
-                        header: "ITEMS",
-                        subHeader: "AT ₹139",
+                        header: "60% OFF",
+                        subHeader: "UPTO ₹120",
                       },
                       differentiatedUi: {
                         displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
@@ -1026,92 +1027,6 @@ const data = {
                   },
                   {
                     info: {
-                      id: "658841",
-                      name: "La Pino'z Pizza",
-                      cloudinaryImageId: "d20fdc8c86aa8bd0638f47dd013d46f9",
-                      locality: "Rajendra Nagar",
-                      areaName: "Attapur",
-                      costForTwo: "₹400 for two",
-                      cuisines: [
-                        "Pizzas",
-                        "Pastas",
-                        "Italian",
-                        "Desserts",
-                        "Beverages",
-                      ],
-                      avgRating: 4.2,
-                      parentId: "4961",
-                      avgRatingString: "4.2",
-                      totalRatingsString: "5K+",
-                      sla: {
-                        deliveryTime: 24,
-                        lastMileTravel: 2,
-                        serviceability: "SERVICEABLE",
-                        slaString: "20-25 mins",
-                        lastMileTravelString: "2.0 km",
-                        iconType: "ICON_TYPE_EMPTY",
-                      },
-                      availability: {
-                        nextCloseTime: "2024-08-08 02:00:00",
-                        opened: true,
-                      },
-                      badges: {
-                        imageBadges: [
-                          {
-                            imageId: "Rxawards/_CATEGORY-Pizza.png",
-                            description: "Delivery!",
-                          },
-                        ],
-                      },
-                      isOpen: true,
-                      type: "F",
-                      badgesV2: {
-                        entityBadges: {
-                          imageBased: {
-                            badgeObject: [
-                              {
-                                attributes: {
-                                  description: "Delivery!",
-                                  imageId: "Rxawards/_CATEGORY-Pizza.png",
-                                },
-                              },
-                            ],
-                          },
-                          textBased: {},
-                          textExtendedBadges: {},
-                        },
-                      },
-                      aggregatedDiscountInfoV3: {
-                        header: "50% OFF",
-                        subHeader: "UPTO ₹100",
-                      },
-                      differentiatedUi: {
-                        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        differentiatedUiMediaDetails: {
-                          mediaType: "ADS_MEDIA_ENUM_IMAGE",
-                          lottie: {},
-                          video: {},
-                        },
-                      },
-                      reviewsSummary: {},
-                      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                      restaurantOfferPresentationInfo: {},
-                      externalRatings: {
-                        aggregatedRating: {
-                          rating: "--",
-                        },
-                      },
-                      ratingsDisplayPreference:
-                        "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
-                    },
-                    analytics: {},
-                    cta: {
-                      link: "https://www.swiggy.com/restaurants/la-pinoz-pizza-rajendra-nagar-attapur-hyderabad-658841",
-                      type: "WEBLINK",
-                    },
-                  },
-                  {
-                    info: {
                       id: "9296",
                       name: "Subway",
                       cloudinaryImageId:
@@ -1125,15 +1040,15 @@ const data = {
                       avgRatingString: "3.9",
                       totalRatingsString: "10K+",
                       sla: {
-                        deliveryTime: 31,
-                        lastMileTravel: 2.8,
+                        deliveryTime: 34,
+                        lastMileTravel: 2.6,
                         serviceability: "SERVICEABLE",
                         slaString: "30-35 mins",
-                        lastMileTravelString: "2.8 km",
+                        lastMileTravelString: "2.6 km",
                         iconType: "ICON_TYPE_EMPTY",
                       },
                       availability: {
-                        nextCloseTime: "2024-08-08 00:45:00",
+                        nextCloseTime: "2024-08-14 00:45:00",
                         opened: true,
                       },
                       badges: {
@@ -1196,6 +1111,92 @@ const data = {
                   },
                   {
                     info: {
+                      id: "658841",
+                      name: "La Pino'z Pizza",
+                      cloudinaryImageId: "d20fdc8c86aa8bd0638f47dd013d46f9",
+                      locality: "Rajendra Nagar",
+                      areaName: "Attapur",
+                      costForTwo: "₹400 for two",
+                      cuisines: [
+                        "Pizzas",
+                        "Pastas",
+                        "Italian",
+                        "Desserts",
+                        "Beverages",
+                      ],
+                      avgRating: 4.2,
+                      parentId: "4961",
+                      avgRatingString: "4.2",
+                      totalRatingsString: "5K+",
+                      sla: {
+                        deliveryTime: 24,
+                        lastMileTravel: 2,
+                        serviceability: "SERVICEABLE",
+                        slaString: "20-25 mins",
+                        lastMileTravelString: "2.0 km",
+                        iconType: "ICON_TYPE_EMPTY",
+                      },
+                      availability: {
+                        nextCloseTime: "2024-08-14 02:00:00",
+                        opened: true,
+                      },
+                      badges: {
+                        imageBadges: [
+                          {
+                            imageId: "Rxawards/_CATEGORY-Pizza.png",
+                            description: "Delivery!",
+                          },
+                        ],
+                      },
+                      isOpen: true,
+                      type: "F",
+                      badgesV2: {
+                        entityBadges: {
+                          imageBased: {
+                            badgeObject: [
+                              {
+                                attributes: {
+                                  description: "Delivery!",
+                                  imageId: "Rxawards/_CATEGORY-Pizza.png",
+                                },
+                              },
+                            ],
+                          },
+                          textBased: {},
+                          textExtendedBadges: {},
+                        },
+                      },
+                      aggregatedDiscountInfoV3: {
+                        header: "ITEMS",
+                        subHeader: "AT ₹199",
+                      },
+                      differentiatedUi: {
+                        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        differentiatedUiMediaDetails: {
+                          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+                          lottie: {},
+                          video: {},
+                        },
+                      },
+                      reviewsSummary: {},
+                      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      restaurantOfferPresentationInfo: {},
+                      externalRatings: {
+                        aggregatedRating: {
+                          rating: "--",
+                        },
+                      },
+                      ratingsDisplayPreference:
+                        "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                    },
+                    analytics: {},
+                    cta: {
+                      link: "https://www.swiggy.com/restaurants/la-pinoz-pizza-rajendra-nagar-attapur-hyderabad-658841",
+                      type: "WEBLINK",
+                    },
+                  },
+                  {
+                    info: {
                       id: "400157",
                       name: "The Belgian Waffle Co.",
                       cloudinaryImageId: "5116a385bac0548e06c33c08350fbf11",
@@ -1214,7 +1215,7 @@ const data = {
                       avgRatingString: "4.5",
                       totalRatingsString: "1K+",
                       sla: {
-                        deliveryTime: 33,
+                        deliveryTime: 31,
                         lastMileTravel: 1.3,
                         serviceability: "SERVICEABLE",
                         slaString: "30-35 mins",
@@ -1222,7 +1223,7 @@ const data = {
                         iconType: "ICON_TYPE_EMPTY",
                       },
                       availability: {
-                        nextCloseTime: "2024-08-07 23:45:00",
+                        nextCloseTime: "2024-08-13 23:45:00",
                         opened: true,
                       },
                       badges: {
@@ -1293,12 +1294,12 @@ const data = {
                         "Mughlai",
                         "Desserts",
                       ],
-                      avgRating: 3.6,
+                      avgRating: 3.7,
                       parentId: "10804",
-                      avgRatingString: "3.6",
+                      avgRatingString: "3.7",
                       totalRatingsString: "100+",
                       sla: {
-                        deliveryTime: 38,
+                        deliveryTime: 36,
                         lastMileTravel: 4.3,
                         serviceability: "SERVICEABLE",
                         slaString: "35-40 mins",
@@ -1306,7 +1307,7 @@ const data = {
                         iconType: "ICON_TYPE_EMPTY",
                       },
                       availability: {
-                        nextCloseTime: "2024-08-07 23:30:00",
+                        nextCloseTime: "2024-08-13 16:30:00",
                         opened: true,
                       },
                       badges: {},
@@ -1320,8 +1321,8 @@ const data = {
                         },
                       },
                       aggregatedDiscountInfoV3: {
-                        header: "ITEMS",
-                        subHeader: "AT ₹199",
+                        header: "50% OFF",
+                        subHeader: "UPTO ₹100",
                       },
                       differentiatedUi: {
                         displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
@@ -1350,6 +1351,96 @@ const data = {
                   },
                   {
                     info: {
+                      id: "156138",
+                      name: "The Good Bowl",
+                      cloudinaryImageId: "6e04be27387483a7c00444f8e8241108",
+                      locality: "Mehdipatnam FC",
+                      areaName: "Humayun Nagar",
+                      costForTwo: "₹400 for two",
+                      cuisines: [
+                        "Biryani",
+                        "North Indian",
+                        "Pastas",
+                        "Punjabi",
+                        "Desserts",
+                        "Beverages",
+                      ],
+                      avgRating: 4.2,
+                      parentId: "7918",
+                      avgRatingString: "4.2",
+                      totalRatingsString: "1K+",
+                      sla: {
+                        deliveryTime: 29,
+                        lastMileTravel: 2.9,
+                        serviceability: "SERVICEABLE",
+                        slaString: "25-30 mins",
+                        lastMileTravelString: "2.9 km",
+                        iconType: "ICON_TYPE_EMPTY",
+                      },
+                      availability: {
+                        nextCloseTime: "2024-08-13 23:59:00",
+                        opened: true,
+                      },
+                      badges: {
+                        textExtendedBadges: [
+                          {
+                            iconId: "guiltfree/GF_Logo_android_3x",
+                            shortDescription: "options available",
+                            fontColor: "#7E808C",
+                          },
+                        ],
+                      },
+                      isOpen: true,
+                      type: "F",
+                      badgesV2: {
+                        entityBadges: {
+                          imageBased: {},
+                          textBased: {},
+                          textExtendedBadges: {
+                            badgeObject: [
+                              {
+                                attributes: {
+                                  description: "",
+                                  fontColor: "#7E808C",
+                                  iconId: "guiltfree/GF_Logo_android_3x",
+                                  shortDescription: "options available",
+                                },
+                              },
+                            ],
+                          },
+                        },
+                      },
+                      aggregatedDiscountInfoV3: {
+                        header: "50% OFF",
+                        subHeader: "UPTO ₹90",
+                      },
+                      differentiatedUi: {
+                        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        differentiatedUiMediaDetails: {
+                          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+                          lottie: {},
+                          video: {},
+                        },
+                      },
+                      reviewsSummary: {},
+                      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      restaurantOfferPresentationInfo: {},
+                      externalRatings: {
+                        aggregatedRating: {
+                          rating: "--",
+                        },
+                      },
+                      ratingsDisplayPreference:
+                        "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                    },
+                    analytics: {},
+                    cta: {
+                      link: "https://www.swiggy.com/restaurants/the-good-bowl-mehdipatnam-fc-humayun-nagar-hyderabad-156138",
+                      type: "WEBLINK",
+                    },
+                  },
+                  {
+                    info: {
                       id: "378344",
                       name: "Theobroma",
                       cloudinaryImageId: "63dd75492c47fcec191132b8eb299ea5",
@@ -1362,15 +1453,15 @@ const data = {
                       avgRatingString: "4.5",
                       totalRatingsString: "1K+",
                       sla: {
-                        deliveryTime: 32,
+                        deliveryTime: 36,
                         lastMileTravel: 6.4,
                         serviceability: "SERVICEABLE",
-                        slaString: "30-35 mins",
+                        slaString: "35-40 mins",
                         lastMileTravelString: "6.4 km",
                         iconType: "ICON_TYPE_EMPTY",
                       },
                       availability: {
-                        nextCloseTime: "2024-08-08 00:00:00",
+                        nextCloseTime: "2024-08-14 00:00:00",
                         opened: true,
                       },
                       badges: {
@@ -1434,96 +1525,6 @@ const data = {
                   },
                   {
                     info: {
-                      id: "156138",
-                      name: "The Good Bowl",
-                      cloudinaryImageId: "6e04be27387483a7c00444f8e8241108",
-                      locality: "Mehdipatnam FC",
-                      areaName: "Humayun Nagar",
-                      costForTwo: "₹400 for two",
-                      cuisines: [
-                        "Biryani",
-                        "North Indian",
-                        "Pastas",
-                        "Punjabi",
-                        "Desserts",
-                        "Beverages",
-                      ],
-                      avgRating: 4.2,
-                      parentId: "7918",
-                      avgRatingString: "4.2",
-                      totalRatingsString: "1K+",
-                      sla: {
-                        deliveryTime: 29,
-                        lastMileTravel: 2.9,
-                        serviceability: "SERVICEABLE",
-                        slaString: "25-30 mins",
-                        lastMileTravelString: "2.9 km",
-                        iconType: "ICON_TYPE_EMPTY",
-                      },
-                      availability: {
-                        nextCloseTime: "2024-08-07 23:59:00",
-                        opened: true,
-                      },
-                      badges: {
-                        textExtendedBadges: [
-                          {
-                            iconId: "guiltfree/GF_Logo_android_3x",
-                            shortDescription: "options available",
-                            fontColor: "#7E808C",
-                          },
-                        ],
-                      },
-                      isOpen: true,
-                      type: "F",
-                      badgesV2: {
-                        entityBadges: {
-                          imageBased: {},
-                          textBased: {},
-                          textExtendedBadges: {
-                            badgeObject: [
-                              {
-                                attributes: {
-                                  description: "",
-                                  fontColor: "#7E808C",
-                                  iconId: "guiltfree/GF_Logo_android_3x",
-                                  shortDescription: "options available",
-                                },
-                              },
-                            ],
-                          },
-                        },
-                      },
-                      aggregatedDiscountInfoV3: {
-                        header: "50% OFF",
-                        subHeader: "UPTO ₹90",
-                      },
-                      differentiatedUi: {
-                        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        differentiatedUiMediaDetails: {
-                          mediaType: "ADS_MEDIA_ENUM_IMAGE",
-                          lottie: {},
-                          video: {},
-                        },
-                      },
-                      reviewsSummary: {},
-                      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                      restaurantOfferPresentationInfo: {},
-                      externalRatings: {
-                        aggregatedRating: {
-                          rating: "--",
-                        },
-                      },
-                      ratingsDisplayPreference:
-                        "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
-                    },
-                    analytics: {},
-                    cta: {
-                      link: "https://www.swiggy.com/restaurants/the-good-bowl-mehdipatnam-fc-humayun-nagar-hyderabad-156138",
-                      type: "WEBLINK",
-                    },
-                  },
-                  {
-                    info: {
                       id: "140111",
                       name: "Imperial Multi-Cusine Restaurant",
                       cloudinaryImageId: "yeednzto1jusnnhswke0",
@@ -1542,15 +1543,15 @@ const data = {
                       avgRatingString: "4.3",
                       totalRatingsString: "10K+",
                       sla: {
-                        deliveryTime: 30,
+                        deliveryTime: 34,
                         lastMileTravel: 4.8,
                         serviceability: "SERVICEABLE",
-                        slaString: "25-30 mins",
+                        slaString: "30-35 mins",
                         lastMileTravelString: "4.8 km",
                         iconType: "ICON_TYPE_EMPTY",
                       },
                       availability: {
-                        nextCloseTime: "2024-08-08 02:30:00",
+                        nextCloseTime: "2024-08-14 02:30:00",
                         opened: true,
                       },
                       badges: {},
@@ -1564,8 +1565,9 @@ const data = {
                         },
                       },
                       aggregatedDiscountInfoV3: {
-                        header: "40% OFF",
-                        subHeader: "UPTO ₹80",
+                        header: "₹40 OFF",
+                        subHeader: "ABOVE ₹179",
+                        discountTag: "FLAT DEAL",
                       },
                       differentiatedUi: {
                         displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
@@ -1606,15 +1608,15 @@ const data = {
                       avgRatingString: "4.3",
                       totalRatingsString: "10K+",
                       sla: {
-                        deliveryTime: 26,
-                        lastMileTravel: 4.2,
+                        deliveryTime: 31,
+                        lastMileTravel: 5,
                         serviceability: "SERVICEABLE",
-                        slaString: "25-30 mins",
-                        lastMileTravelString: "4.2 km",
+                        slaString: "30-35 mins",
+                        lastMileTravelString: "5.0 km",
                         iconType: "ICON_TYPE_EMPTY",
                       },
                       availability: {
-                        nextCloseTime: "2024-08-08 03:00:00",
+                        nextCloseTime: "2024-08-14 03:00:00",
                         opened: true,
                       },
                       badges: {
@@ -1701,15 +1703,15 @@ const data = {
                       avgRatingString: "4.4",
                       totalRatingsString: "100+",
                       sla: {
-                        deliveryTime: 30,
+                        deliveryTime: 25,
                         lastMileTravel: 2.2,
                         serviceability: "SERVICEABLE",
-                        slaString: "20-30 mins",
+                        slaString: "15-25 mins",
                         lastMileTravelString: "2.2 km",
                         iconType: "ICON_TYPE_EMPTY",
                       },
                       availability: {
-                        nextCloseTime: "2024-08-08 02:00:00",
+                        nextCloseTime: "2024-08-14 02:00:00",
                         opened: true,
                       },
                       badges: {
@@ -1742,8 +1744,8 @@ const data = {
                         },
                       },
                       aggregatedDiscountInfoV3: {
-                        header: "ITEMS",
-                        subHeader: "AT ₹139",
+                        header: "50% OFF",
+                        subHeader: "UPTO ₹100",
                       },
                       differentiatedUi: {
                         displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
@@ -1798,7 +1800,7 @@ const data = {
                         iconType: "ICON_TYPE_EMPTY",
                       },
                       availability: {
-                        nextCloseTime: "2024-08-08 02:00:00",
+                        nextCloseTime: "2024-08-14 02:00:00",
                         opened: true,
                       },
                       badges: {
@@ -1831,8 +1833,8 @@ const data = {
                         },
                       },
                       aggregatedDiscountInfoV3: {
-                        header: "ITEMS",
-                        subHeader: "AT ₹139",
+                        header: "60% OFF",
+                        subHeader: "UPTO ₹120",
                       },
                       differentiatedUi: {
                         displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
@@ -1874,15 +1876,15 @@ const data = {
                       avgRatingString: "4.5",
                       totalRatingsString: "500+",
                       sla: {
-                        deliveryTime: 25,
+                        deliveryTime: 20,
                         lastMileTravel: 2.2,
                         serviceability: "SERVICEABLE",
-                        slaString: "15-25 mins",
+                        slaString: "10-20 mins",
                         lastMileTravelString: "2.2 km",
                         iconType: "ICON_TYPE_EMPTY",
                       },
                       availability: {
-                        nextCloseTime: "2024-08-08 02:00:00",
+                        nextCloseTime: "2024-08-14 02:00:00",
                         opened: true,
                       },
                       badges: {
@@ -1915,8 +1917,8 @@ const data = {
                         },
                       },
                       aggregatedDiscountInfoV3: {
-                        header: "ITEMS",
-                        subHeader: "AT ₹139",
+                        header: "60% OFF",
+                        subHeader: "UPTO ₹120",
                       },
                       differentiatedUi: {
                         displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
@@ -1958,7 +1960,7 @@ const data = {
                       avgRatingString: "4.1",
                       totalRatingsString: "10K+",
                       sla: {
-                        deliveryTime: 26,
+                        deliveryTime: 28,
                         lastMileTravel: 1.4,
                         serviceability: "SERVICEABLE",
                         slaString: "25-30 mins",
@@ -1966,7 +1968,7 @@ const data = {
                         iconType: "ICON_TYPE_EMPTY",
                       },
                       availability: {
-                        nextCloseTime: "2024-08-08 04:00:00",
+                        nextCloseTime: "2024-08-14 04:00:00",
                         opened: true,
                       },
                       badges: {},
@@ -2044,7 +2046,7 @@ const data = {
                         iconType: "ICON_TYPE_EMPTY",
                       },
                       availability: {
-                        nextCloseTime: "2024-08-07 23:59:00",
+                        nextCloseTime: "2024-08-13 23:59:00",
                         opened: true,
                       },
                       badges: {
@@ -2074,8 +2076,8 @@ const data = {
                         },
                       },
                       aggregatedDiscountInfoV3: {
-                        header: "ITEMS",
-                        subHeader: "AT ₹129",
+                        header: "50% OFF",
+                        subHeader: "UPTO ₹100",
                       },
                       differentiatedUi: {
                         displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
@@ -2132,7 +2134,7 @@ const data = {
                         iconType: "ICON_TYPE_EMPTY",
                       },
                       availability: {
-                        nextCloseTime: "2024-08-07 23:59:00",
+                        nextCloseTime: "2024-08-13 23:59:00",
                         opened: true,
                       },
                       badges: {
@@ -2206,15 +2208,15 @@ const data = {
                       avgRatingString: "4.4",
                       totalRatingsString: "1K+",
                       sla: {
-                        deliveryTime: 34,
+                        deliveryTime: 35,
                         lastMileTravel: 6.9,
                         serviceability: "SERVICEABLE",
-                        slaString: "30-35 mins",
+                        slaString: "35-40 mins",
                         lastMileTravelString: "6.9 km",
                         iconType: "ICON_TYPE_EMPTY",
                       },
                       availability: {
-                        nextCloseTime: "2024-08-08 01:00:00",
+                        nextCloseTime: "2024-08-14 01:00:00",
                         opened: true,
                       },
                       badges: {
@@ -2249,8 +2251,8 @@ const data = {
                         },
                       },
                       aggregatedDiscountInfoV3: {
-                        header: "ITEMS",
-                        subHeader: "AT ₹299",
+                        header: "60% OFF",
+                        subHeader: "UPTO ₹120",
                       },
                       differentiatedUi: {
                         displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
@@ -2279,95 +2281,6 @@ const data = {
                   },
                   {
                     info: {
-                      id: "662646",
-                      name: "Starbucks Coffee",
-                      cloudinaryImageId:
-                        "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/3/4551821b-8035-424a-8829-3f22471e4422_662646.JPG",
-                      locality: "Bhola Nagar",
-                      areaName: "Banjara Green Colony",
-                      costForTwo: "₹400 for two",
-                      cuisines: [
-                        "Beverages",
-                        "Cafe",
-                        "Snacks",
-                        "Desserts",
-                        "Bakery",
-                        "Ice Cream",
-                      ],
-                      avgRating: 4.4,
-                      parentId: "195515",
-                      avgRatingString: "4.4",
-                      totalRatingsString: "500+",
-                      sla: {
-                        deliveryTime: 35,
-                        lastMileTravel: 6.2,
-                        serviceability: "SERVICEABLE",
-                        slaString: "30-35 mins",
-                        lastMileTravelString: "6.2 km",
-                        iconType: "ICON_TYPE_EMPTY",
-                      },
-                      availability: {
-                        nextCloseTime: "2024-08-07 23:00:00",
-                        opened: true,
-                      },
-                      badges: {
-                        imageBadges: [
-                          {
-                            imageId: "Rxawards/_CATEGORY-Cafe%20&%20Chai.png",
-                            description: "Delivery!",
-                          },
-                        ],
-                      },
-                      isOpen: true,
-                      type: "F",
-                      badgesV2: {
-                        entityBadges: {
-                          imageBased: {
-                            badgeObject: [
-                              {
-                                attributes: {
-                                  description: "Delivery!",
-                                  imageId:
-                                    "Rxawards/_CATEGORY-Cafe%20&%20Chai.png",
-                                },
-                              },
-                            ],
-                          },
-                          textBased: {},
-                          textExtendedBadges: {},
-                        },
-                      },
-                      aggregatedDiscountInfoV3: {
-                        header: "ITEMS",
-                        subHeader: "AT ₹199",
-                      },
-                      differentiatedUi: {
-                        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        differentiatedUiMediaDetails: {
-                          mediaType: "ADS_MEDIA_ENUM_IMAGE",
-                          lottie: {},
-                          video: {},
-                        },
-                      },
-                      reviewsSummary: {},
-                      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                      restaurantOfferPresentationInfo: {},
-                      externalRatings: {
-                        aggregatedRating: {
-                          rating: "--",
-                        },
-                      },
-                      ratingsDisplayPreference:
-                        "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
-                    },
-                    analytics: {},
-                    cta: {
-                      link: "https://www.swiggy.com/restaurants/starbucks-coffee-bhola-nagar-banjara-green-colony-hyderabad-662646",
-                      type: "WEBLINK",
-                    },
-                  },
-                  {
-                    info: {
                       id: "28108",
                       name: "Al Rabea Al Arabi Cafeteria",
                       cloudinaryImageId: "jnzmscxd37rbjmgciwt5",
@@ -2380,15 +2293,15 @@ const data = {
                       avgRatingString: "4.4",
                       totalRatingsString: "10K+",
                       sla: {
-                        deliveryTime: 22,
+                        deliveryTime: 26,
                         lastMileTravel: 3,
                         serviceability: "SERVICEABLE",
-                        slaString: "20-25 mins",
+                        slaString: "25-30 mins",
                         lastMileTravelString: "3.0 km",
                         iconType: "ICON_TYPE_EMPTY",
                       },
                       availability: {
-                        nextCloseTime: "2024-08-08 01:00:00",
+                        nextCloseTime: "2024-08-14 01:00:00",
                         opened: true,
                       },
                       badges: {},
@@ -2433,70 +2346,6 @@ const data = {
                   },
                   {
                     info: {
-                      id: "367769",
-                      name: "Lucky Restaurant",
-                      cloudinaryImageId: "qems028i3da5rxf81rbp",
-                      locality: "Banjara Hills",
-                      areaName: "Masab tank",
-                      costForTwo: "₹300 for two",
-                      cuisines: ["Biryani", "Tandoor"],
-                      avgRating: 4.1,
-                      parentId: "535180",
-                      avgRatingString: "4.1",
-                      totalRatingsString: "10K+",
-                      sla: {
-                        deliveryTime: 34,
-                        lastMileTravel: 5.7,
-                        serviceability: "SERVICEABLE",
-                        slaString: "30-35 mins",
-                        lastMileTravelString: "5.7 km",
-                        iconType: "ICON_TYPE_EMPTY",
-                      },
-                      availability: {
-                        nextCloseTime: "2024-08-07 23:45:00",
-                        opened: true,
-                      },
-                      badges: {},
-                      isOpen: true,
-                      type: "F",
-                      badgesV2: {
-                        entityBadges: {
-                          imageBased: {},
-                          textBased: {},
-                          textExtendedBadges: {},
-                        },
-                      },
-                      aggregatedDiscountInfoV3: {
-                        header: "ITEMS",
-                        subHeader: "AT ₹111",
-                      },
-                      differentiatedUi: {
-                        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        differentiatedUiMediaDetails: {
-                          mediaType: "ADS_MEDIA_ENUM_IMAGE",
-                          lottie: {},
-                          video: {},
-                        },
-                      },
-                      reviewsSummary: {},
-                      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                      restaurantOfferPresentationInfo: {},
-                      externalRatings: {
-                        aggregatedRating: {
-                          rating: "--",
-                        },
-                      },
-                      ratingsDisplayPreference:
-                        "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
-                    },
-                    analytics: {},
-                    cta: {
-                      link: "https://www.swiggy.com/restaurants/lucky-restaurant-banjara-hills-masab-tank-hyderabad-367769",
-                      type: "WEBLINK",
-                    },
-                  },
-                  {
-                    info: {
                       id: "52631",
                       name: "McDonald's",
                       cloudinaryImageId:
@@ -2510,15 +2359,15 @@ const data = {
                       avgRatingString: "4.3",
                       totalRatingsString: "10K+",
                       sla: {
-                        deliveryTime: 28,
-                        lastMileTravel: 5,
+                        deliveryTime: 26,
+                        lastMileTravel: 4.4,
                         serviceability: "SERVICEABLE",
                         slaString: "25-30 mins",
-                        lastMileTravelString: "5.0 km",
+                        lastMileTravelString: "4.4 km",
                         iconType: "ICON_TYPE_EMPTY",
                       },
                       availability: {
-                        nextCloseTime: "2024-08-08 01:00:00",
+                        nextCloseTime: "2024-08-14 01:45:00",
                         opened: true,
                       },
                       badges: {
@@ -2573,6 +2422,192 @@ const data = {
                     analytics: {},
                     cta: {
                       link: "https://www.swiggy.com/restaurants/mcdonalds-namishree-mantra-mall-upperpally-village-rambagh-colony-hyderabad-52631",
+                      type: "WEBLINK",
+                    },
+                  },
+                  {
+                    info: {
+                      id: "655339",
+                      name: "KFC",
+                      cloudinaryImageId:
+                        "RX_THUMBNAIL/IMAGES/VENDOR/2024/4/17/1ba9479c-6527-4f4f-a2e6-f8c070a2171c_655339.JPG",
+                      locality: "Gudimalkapur",
+                      areaName: "Inner Ring Road",
+                      costForTwo: "₹400 for two",
+                      cuisines: ["Burgers", "Fast Food", "Rolls & Wraps"],
+                      avgRating: 4.1,
+                      parentId: "547",
+                      avgRatingString: "4.1",
+                      totalRatingsString: "1K+",
+                      sla: {
+                        deliveryTime: 26,
+                        lastMileTravel: 2.4,
+                        serviceability: "SERVICEABLE",
+                        slaString: "25-30 mins",
+                        lastMileTravelString: "2.4 km",
+                        iconType: "ICON_TYPE_EMPTY",
+                      },
+                      availability: {
+                        nextCloseTime: "2024-08-13 23:00:00",
+                        opened: true,
+                      },
+                      badges: {
+                        imageBadges: [
+                          {
+                            imageId: "Rxawards/_CATEGORY-Burger.png",
+                            description: "Delivery!",
+                          },
+                        ],
+                      },
+                      isOpen: true,
+                      type: "F",
+                      badgesV2: {
+                        entityBadges: {
+                          imageBased: {
+                            badgeObject: [
+                              {
+                                attributes: {
+                                  description: "Delivery!",
+                                  imageId: "Rxawards/_CATEGORY-Burger.png",
+                                },
+                              },
+                            ],
+                          },
+                          textBased: {},
+                          textExtendedBadges: {},
+                        },
+                      },
+                      aggregatedDiscountInfoV3: {
+                        header: "20% OFF",
+                        subHeader: "UPTO ₹50",
+                      },
+                      differentiatedUi: {
+                        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        differentiatedUiMediaDetails: {
+                          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+                          lottie: {},
+                          video: {},
+                        },
+                      },
+                      reviewsSummary: {},
+                      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      restaurantOfferPresentationInfo: {},
+                      externalRatings: {
+                        aggregatedRating: {
+                          rating: "--",
+                        },
+                      },
+                      ratingsDisplayPreference:
+                        "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                    },
+                    analytics: {},
+                    cta: {
+                      link: "https://www.swiggy.com/restaurants/kfc-gudimalkapur-inner-ring-road-hyderabad-655339",
+                      type: "WEBLINK",
+                    },
+                  },
+                  {
+                    info: {
+                      id: "30253",
+                      name: "Agra Sweets Banjara",
+                      cloudinaryImageId: "nav4ebkoxrwlladx7a5m",
+                      locality: "Utkoor- Mogdumpur road",
+                      areaName: "Rambagh Colony",
+                      costForTwo: "₹250 for two",
+                      cuisines: [
+                        "Sweets",
+                        "Desserts",
+                        "Chaat",
+                        "Snacks",
+                        "Beverages",
+                      ],
+                      avgRating: 4.4,
+                      veg: true,
+                      parentId: "34",
+                      avgRatingString: "4.4",
+                      totalRatingsString: "10K+",
+                      sla: {
+                        deliveryTime: 22,
+                        lastMileTravel: 3.5,
+                        serviceability: "SERVICEABLE",
+                        slaString: "20-25 mins",
+                        lastMileTravelString: "3.5 km",
+                        iconType: "ICON_TYPE_EMPTY",
+                      },
+                      availability: {
+                        nextCloseTime: "2024-08-13 23:00:00",
+                        opened: true,
+                      },
+                      badges: {
+                        imageBadges: [
+                          {
+                            imageId: "v1695133679/badges/Pure_Veg111.png",
+                            description: "pureveg",
+                          },
+                        ],
+                        textExtendedBadges: [
+                          {
+                            iconId: "guiltfree/GF_Logo_android_3x",
+                            shortDescription: "options available",
+                            fontColor: "#7E808C",
+                          },
+                        ],
+                      },
+                      isOpen: true,
+                      type: "F",
+                      badgesV2: {
+                        entityBadges: {
+                          imageBased: {
+                            badgeObject: [
+                              {
+                                attributes: {
+                                  description: "pureveg",
+                                  imageId: "v1695133679/badges/Pure_Veg111.png",
+                                },
+                              },
+                            ],
+                          },
+                          textBased: {},
+                          textExtendedBadges: {
+                            badgeObject: [
+                              {
+                                attributes: {
+                                  description: "",
+                                  fontColor: "#7E808C",
+                                  iconId: "guiltfree/GF_Logo_android_3x",
+                                  shortDescription: "options available",
+                                },
+                              },
+                            ],
+                          },
+                        },
+                      },
+                      aggregatedDiscountInfoV3: {
+                        header: "20% OFF",
+                        subHeader: "UPTO ₹50",
+                      },
+                      differentiatedUi: {
+                        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        differentiatedUiMediaDetails: {
+                          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+                          lottie: {},
+                          video: {},
+                        },
+                      },
+                      reviewsSummary: {},
+                      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      restaurantOfferPresentationInfo: {},
+                      externalRatings: {
+                        aggregatedRating: {
+                          rating: "--",
+                        },
+                      },
+                      ratingsDisplayPreference:
+                        "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                    },
+                    analytics: {},
+                    cta: {
+                      link: "https://www.swiggy.com/restaurants/agra-sweets-banjara-utkoor-mogdumpur-road-rambagh-colony-hyderabad-30253",
                       type: "WEBLINK",
                     },
                   },
@@ -2636,7 +2671,7 @@ const data = {
                 title: "Cost:HightoLow",
               },
             ],
-            restaurantCount: 2000,
+            restaurantCount: 1985,
             facetList: [
               {
                 label: "Delivery Time",
@@ -2779,20 +2814,8 @@ const data = {
                     openFilter: true,
                   },
                   {
-                    label: "Chettinad",
-                    id: "query_chettinad",
-                    analytics: {},
-                    openFilter: true,
-                  },
-                  {
                     label: "Chinese",
                     id: "query_chinese",
-                    analytics: {},
-                    openFilter: true,
-                  },
-                  {
-                    label: "Coastal",
-                    id: "query_coastal",
                     analytics: {},
                     openFilter: true,
                   },
@@ -2961,6 +2984,12 @@ const data = {
                   {
                     label: "Keto",
                     id: "query_keto",
+                    analytics: {},
+                    openFilter: true,
+                  },
+                  {
+                    label: "Khasi",
+                    id: "query_khasi",
                     analytics: {},
                     openFilter: true,
                   },
@@ -3181,6 +3210,12 @@ const data = {
                     openFilter: true,
                   },
                   {
+                    label: "South American",
+                    id: "query_south_american",
+                    analytics: {},
+                    openFilter: true,
+                  },
+                  {
                     label: "South Indian",
                     id: "query_south_indian",
                     analytics: {},
@@ -3213,12 +3248,6 @@ const data = {
                   {
                     label: "Tandoor",
                     id: "query_tandoor",
-                    analytics: {},
-                    openFilter: true,
-                  },
-                  {
-                    label: "Tea",
-                    id: "query_tea",
                     analytics: {},
                     openFilter: true,
                   },
@@ -3273,12 +3302,6 @@ const data = {
                   {
                     label: "fastfood",
                     id: "query_fastfood",
-                    analytics: {},
-                    openFilter: true,
-                  },
-                  {
-                    label: "juice",
-                    id: "query_juice",
                     analytics: {},
                     openFilter: true,
                   },
@@ -3436,39 +3459,34 @@ const data = {
                 restaurants: [
                   {
                     info: {
-                      id: "658841",
-                      name: "La Pino'z Pizza",
-                      cloudinaryImageId: "d20fdc8c86aa8bd0638f47dd013d46f9",
-                      locality: "Rajendra Nagar",
+                      id: "362596",
+                      name: "Burger King",
+                      cloudinaryImageId:
+                        "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/11/cab874d5-c7ed-4122-9eb9-935992f4bcee_362596.JPG",
+                      locality: "M Cube Mall",
                       areaName: "Attapur",
-                      costForTwo: "₹400 for two",
-                      cuisines: [
-                        "Pizzas",
-                        "Pastas",
-                        "Italian",
-                        "Desserts",
-                        "Beverages",
-                      ],
-                      avgRating: 4.2,
-                      parentId: "4961",
-                      avgRatingString: "4.2",
-                      totalRatingsString: "5K+",
+                      costForTwo: "₹350 for two",
+                      cuisines: ["Burgers", "American"],
+                      avgRating: 4.1,
+                      parentId: "166",
+                      avgRatingString: "4.1",
+                      totalRatingsString: "10K+",
                       sla: {
-                        deliveryTime: 24,
-                        lastMileTravel: 2,
+                        deliveryTime: 23,
+                        lastMileTravel: 1.4,
                         serviceability: "SERVICEABLE",
                         slaString: "20-25 mins",
-                        lastMileTravelString: "2.0 km",
+                        lastMileTravelString: "1.4 km",
                         iconType: "ICON_TYPE_EMPTY",
                       },
                       availability: {
-                        nextCloseTime: "2024-08-08 02:00:00",
+                        nextCloseTime: "2024-08-14 03:00:00",
                         opened: true,
                       },
                       badges: {
                         imageBadges: [
                           {
-                            imageId: "Rxawards/_CATEGORY-Pizza.png",
+                            imageId: "Rxawards/_CATEGORY-Burger.png",
                             description: "Delivery!",
                           },
                         ],
@@ -3482,7 +3500,7 @@ const data = {
                               {
                                 attributes: {
                                   description: "Delivery!",
-                                  imageId: "Rxawards/_CATEGORY-Pizza.png",
+                                  imageId: "Rxawards/_CATEGORY-Burger.png",
                                 },
                               },
                             ],
@@ -3492,8 +3510,8 @@ const data = {
                         },
                       },
                       aggregatedDiscountInfoV3: {
-                        header: "50% OFF",
-                        subHeader: "UPTO ₹100",
+                        header: "60% OFF",
+                        subHeader: "UPTO ₹120",
                       },
                       orderabilityCommunication: {
                         title: {},
@@ -3521,10 +3539,10 @@ const data = {
                         "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
                     },
                     analytics: {
-                      context: "seo-data-e42cf220-a27c-4af8-b7f0-56fc09bfa674",
+                      context: "seo-data-939c185e-1adc-4313-9c56-56ae964266e7",
                     },
                     cta: {
-                      link: "https://www.swiggy.com/restaurants/la-pinoz-pizza-rajendra-nagar-attapur-hyderabad-658841",
+                      link: "https://www.swiggy.com/restaurants/burger-king-m-cube-mall-attapur-hyderabad-362596",
                       text: "RESTAURANT_MENU",
                       type: "WEBLINK",
                     },
@@ -3546,15 +3564,15 @@ const data = {
                       avgRatingString: "3.9",
                       totalRatingsString: "10K+",
                       sla: {
-                        deliveryTime: 31,
-                        lastMileTravel: 2.8,
+                        deliveryTime: 34,
+                        lastMileTravel: 2.6,
                         serviceability: "SERVICEABLE",
                         slaString: "30-35 mins",
-                        lastMileTravelString: "2.8 km",
+                        lastMileTravelString: "2.6 km",
                         iconType: "ICON_TYPE_EMPTY",
                       },
                       availability: {
-                        nextCloseTime: "2024-08-08 00:45:00",
+                        nextCloseTime: "2024-08-14 00:45:00",
                         opened: true,
                       },
                       badges: {
@@ -3616,7 +3634,7 @@ const data = {
                         "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
                     },
                     analytics: {
-                      context: "seo-data-e42cf220-a27c-4af8-b7f0-56fc09bfa674",
+                      context: "seo-data-939c185e-1adc-4313-9c56-56ae964266e7",
                     },
                     cta: {
                       link: "https://www.swiggy.com/restaurants/subway-humayun-nagar-mehdipatnam-hyderabad-9296",
@@ -3628,34 +3646,39 @@ const data = {
                   },
                   {
                     info: {
-                      id: "362596",
-                      name: "Burger King",
-                      cloudinaryImageId:
-                        "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/11/cab874d5-c7ed-4122-9eb9-935992f4bcee_362596.JPG",
-                      locality: "M Cube Mall",
+                      id: "658841",
+                      name: "La Pino'z Pizza",
+                      cloudinaryImageId: "d20fdc8c86aa8bd0638f47dd013d46f9",
+                      locality: "Rajendra Nagar",
                       areaName: "Attapur",
-                      costForTwo: "₹350 for two",
-                      cuisines: ["Burgers", "American"],
-                      avgRating: 4.1,
-                      parentId: "166",
-                      avgRatingString: "4.1",
-                      totalRatingsString: "10K+",
+                      costForTwo: "₹400 for two",
+                      cuisines: [
+                        "Pizzas",
+                        "Pastas",
+                        "Italian",
+                        "Desserts",
+                        "Beverages",
+                      ],
+                      avgRating: 4.2,
+                      parentId: "4961",
+                      avgRatingString: "4.2",
+                      totalRatingsString: "5K+",
                       sla: {
-                        deliveryTime: 21,
-                        lastMileTravel: 1.4,
+                        deliveryTime: 24,
+                        lastMileTravel: 2,
                         serviceability: "SERVICEABLE",
                         slaString: "20-25 mins",
-                        lastMileTravelString: "1.4 km",
+                        lastMileTravelString: "2.0 km",
                         iconType: "ICON_TYPE_EMPTY",
                       },
                       availability: {
-                        nextCloseTime: "2024-08-08 03:00:00",
+                        nextCloseTime: "2024-08-14 02:00:00",
                         opened: true,
                       },
                       badges: {
                         imageBadges: [
                           {
-                            imageId: "Rxawards/_CATEGORY-Burger.png",
+                            imageId: "Rxawards/_CATEGORY-Pizza.png",
                             description: "Delivery!",
                           },
                         ],
@@ -3669,7 +3692,7 @@ const data = {
                               {
                                 attributes: {
                                   description: "Delivery!",
-                                  imageId: "Rxawards/_CATEGORY-Burger.png",
+                                  imageId: "Rxawards/_CATEGORY-Pizza.png",
                                 },
                               },
                             ],
@@ -3680,7 +3703,7 @@ const data = {
                       },
                       aggregatedDiscountInfoV3: {
                         header: "ITEMS",
-                        subHeader: "AT ₹139",
+                        subHeader: "AT ₹199",
                       },
                       orderabilityCommunication: {
                         title: {},
@@ -3708,10 +3731,10 @@ const data = {
                         "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
                     },
                     analytics: {
-                      context: "seo-data-e42cf220-a27c-4af8-b7f0-56fc09bfa674",
+                      context: "seo-data-939c185e-1adc-4313-9c56-56ae964266e7",
                     },
                     cta: {
-                      link: "https://www.swiggy.com/restaurants/burger-king-m-cube-mall-attapur-hyderabad-362596",
+                      link: "https://www.swiggy.com/restaurants/la-pinoz-pizza-rajendra-nagar-attapur-hyderabad-658841",
                       text: "RESTAURANT_MENU",
                       type: "WEBLINK",
                     },
@@ -3738,7 +3761,7 @@ const data = {
                       avgRatingString: "4.5",
                       totalRatingsString: "1K+",
                       sla: {
-                        deliveryTime: 33,
+                        deliveryTime: 31,
                         lastMileTravel: 1.3,
                         serviceability: "SERVICEABLE",
                         slaString: "30-35 mins",
@@ -3746,7 +3769,7 @@ const data = {
                         iconType: "ICON_TYPE_EMPTY",
                       },
                       availability: {
-                        nextCloseTime: "2024-08-07 23:45:00",
+                        nextCloseTime: "2024-08-13 23:45:00",
                         opened: true,
                       },
                       badges: {
@@ -3802,7 +3825,7 @@ const data = {
                         "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
                     },
                     analytics: {
-                      context: "seo-data-e42cf220-a27c-4af8-b7f0-56fc09bfa674",
+                      context: "seo-data-939c185e-1adc-4313-9c56-56ae964266e7",
                     },
                     cta: {
                       link: "https://www.swiggy.com/restaurants/the-belgian-waffle-co-somi-reddy-nagar-attapur-hyderabad-400157",
@@ -3828,12 +3851,12 @@ const data = {
                         "Mughlai",
                         "Desserts",
                       ],
-                      avgRating: 3.6,
+                      avgRating: 3.7,
                       parentId: "10804",
-                      avgRatingString: "3.6",
+                      avgRatingString: "3.7",
                       totalRatingsString: "100+",
                       sla: {
-                        deliveryTime: 38,
+                        deliveryTime: 36,
                         lastMileTravel: 4.3,
                         serviceability: "SERVICEABLE",
                         slaString: "35-40 mins",
@@ -3841,7 +3864,7 @@ const data = {
                         iconType: "ICON_TYPE_EMPTY",
                       },
                       availability: {
-                        nextCloseTime: "2024-08-07 23:30:00",
+                        nextCloseTime: "2024-08-13 16:30:00",
                         opened: true,
                       },
                       badges: {},
@@ -3855,8 +3878,8 @@ const data = {
                         },
                       },
                       aggregatedDiscountInfoV3: {
-                        header: "ITEMS",
-                        subHeader: "AT ₹199",
+                        header: "50% OFF",
+                        subHeader: "UPTO ₹100",
                       },
                       orderabilityCommunication: {
                         title: {},
@@ -3884,210 +3907,10 @@ const data = {
                         "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
                     },
                     analytics: {
-                      context: "seo-data-e42cf220-a27c-4af8-b7f0-56fc09bfa674",
+                      context: "seo-data-939c185e-1adc-4313-9c56-56ae964266e7",
                     },
                     cta: {
                       link: "https://www.swiggy.com/restaurants/ubq-by-barbeque-nation-commercial-centre-attapur-hyderabad-659668",
-                      text: "RESTAURANT_MENU",
-                      type: "WEBLINK",
-                    },
-                    widgetId:
-                      "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
-                  },
-                  {
-                    info: {
-                      id: "9277",
-                      name: "Mehfil",
-                      cloudinaryImageId: "wkvh8xtryde5dj2nrme5",
-                      locality: "Attapur",
-                      areaName: "Rambagh Colony",
-                      costForTwo: "₹300 for two",
-                      cuisines: ["Biryani", "Chinese", "Kebabs", "Tandoor"],
-                      avgRating: 4.3,
-                      parentId: "637",
-                      avgRatingString: "4.3",
-                      totalRatingsString: "10K+",
-                      sla: {
-                        deliveryTime: 19,
-                        lastMileTravel: 2.8,
-                        serviceability: "SERVICEABLE",
-                        slaString: "15-20 mins",
-                        lastMileTravelString: "2.8 km",
-                        iconType: "ICON_TYPE_EMPTY",
-                      },
-                      availability: {
-                        nextCloseTime: "2024-08-08 02:00:00",
-                        opened: true,
-                      },
-                      badges: {
-                        imageBadges: [
-                          {
-                            imageId: "Rxawards/_CATEGORY-Biryani.png",
-                            description: "Delivery!",
-                          },
-                          {
-                            imageId: "Rxawards/_CATEGORY-Shawarma.png",
-                            description: "Delivery!",
-                          },
-                        ],
-                      },
-                      isOpen: true,
-                      type: "F",
-                      badgesV2: {
-                        entityBadges: {
-                          imageBased: {
-                            badgeObject: [
-                              {
-                                attributes: {
-                                  description: "Delivery!",
-                                  imageId: "Rxawards/_CATEGORY-Biryani.png",
-                                },
-                              },
-                              {
-                                attributes: {
-                                  description: "Delivery!",
-                                  imageId: "Rxawards/_CATEGORY-Shawarma.png",
-                                },
-                              },
-                            ],
-                          },
-                          textBased: {},
-                          textExtendedBadges: {},
-                        },
-                      },
-                      aggregatedDiscountInfoV3: {
-                        header: "ITEMS",
-                        subHeader: "AT ₹189",
-                      },
-                      orderabilityCommunication: {
-                        title: {},
-                        subTitle: {},
-                        message: {},
-                        customIcon: {},
-                      },
-                      differentiatedUi: {
-                        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        differentiatedUiMediaDetails: {
-                          mediaType: "ADS_MEDIA_ENUM_IMAGE",
-                          lottie: {},
-                          video: {},
-                        },
-                      },
-                      reviewsSummary: {},
-                      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                      restaurantOfferPresentationInfo: {},
-                      externalRatings: {
-                        aggregatedRating: {
-                          rating: "4.0",
-                          ratingCount: "500+",
-                        },
-                        source: "GOOGLE",
-                        sourceIconImageId:
-                          "v1704440323/google_ratings/rating_google_tag",
-                      },
-                      ratingsDisplayPreference:
-                        "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
-                    },
-                    analytics: {
-                      context: "seo-data-e42cf220-a27c-4af8-b7f0-56fc09bfa674",
-                    },
-                    cta: {
-                      link: "https://www.swiggy.com/restaurants/mehfil-attapur-rambagh-colony-hyderabad-9277",
-                      text: "RESTAURANT_MENU",
-                      type: "WEBLINK",
-                    },
-                    widgetId:
-                      "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
-                  },
-                  {
-                    info: {
-                      id: "378344",
-                      name: "Theobroma",
-                      cloudinaryImageId: "63dd75492c47fcec191132b8eb299ea5",
-                      locality: "Banjara Hills",
-                      areaName: "Banjara Hills",
-                      costForTwo: "₹400 for two",
-                      cuisines: ["Desserts"],
-                      avgRating: 4.5,
-                      parentId: "1040",
-                      avgRatingString: "4.5",
-                      totalRatingsString: "1K+",
-                      sla: {
-                        deliveryTime: 32,
-                        lastMileTravel: 6.4,
-                        serviceability: "SERVICEABLE",
-                        slaString: "30-35 mins",
-                        lastMileTravelString: "6.4 km",
-                        iconType: "ICON_TYPE_EMPTY",
-                      },
-                      availability: {
-                        nextCloseTime: "2024-08-08 00:00:00",
-                        opened: true,
-                      },
-                      badges: {
-                        imageBadges: [
-                          {
-                            imageId: "newg.png",
-                            description: "Gourmet",
-                          },
-                        ],
-                      },
-                      isOpen: true,
-                      type: "F",
-                      badgesV2: {
-                        entityBadges: {
-                          imageBased: {
-                            badgeObject: [
-                              {
-                                attributes: {
-                                  description: "Gourmet",
-                                  imageId: "newg.png",
-                                },
-                              },
-                            ],
-                          },
-                          textBased: {},
-                          textExtendedBadges: {},
-                        },
-                      },
-                      aggregatedDiscountInfoV3: {
-                        header: "20% OFF",
-                        discountTag: "FLAT DEAL",
-                      },
-                      orderabilityCommunication: {
-                        title: {},
-                        subTitle: {},
-                        message: {},
-                        customIcon: {},
-                      },
-                      differentiatedUi: {
-                        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        differentiatedUiMediaDetails: {
-                          mediaType: "ADS_MEDIA_ENUM_IMAGE",
-                          lottie: {},
-                          video: {},
-                        },
-                      },
-                      reviewsSummary: {},
-                      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                      restaurantOfferPresentationInfo: {},
-                      externalRatings: {
-                        aggregatedRating: {
-                          rating: "4.0",
-                          ratingCount: "100+",
-                        },
-                        source: "GOOGLE",
-                        sourceIconImageId:
-                          "v1704440323/google_ratings/rating_google_tag",
-                      },
-                      ratingsDisplayPreference:
-                        "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
-                    },
-                    analytics: {
-                      context: "seo-data-e42cf220-a27c-4af8-b7f0-56fc09bfa674",
-                    },
-                    cta: {
-                      link: "https://www.swiggy.com/restaurants/theobroma-banjara-hills-hyderabad-378344",
                       text: "RESTAURANT_MENU",
                       type: "WEBLINK",
                     },
@@ -4108,7 +3931,7 @@ const data = {
                       avgRatingString: "4.5",
                       totalRatingsString: "10K+",
                       sla: {
-                        deliveryTime: 35,
+                        deliveryTime: 33,
                         lastMileTravel: 5.8,
                         serviceability: "SERVICEABLE",
                         slaString: "30-35 mins",
@@ -4116,7 +3939,7 @@ const data = {
                         iconType: "ICON_TYPE_EMPTY",
                       },
                       availability: {
-                        nextCloseTime: "2024-08-07 23:50:00",
+                        nextCloseTime: "2024-08-13 23:50:00",
                         opened: true,
                       },
                       badges: {
@@ -4151,8 +3974,9 @@ const data = {
                         },
                       },
                       aggregatedDiscountInfoV3: {
-                        header: "ITEMS",
-                        subHeader: "AT ₹14",
+                        header: "₹70 OFF",
+                        subHeader: "ABOVE ₹179",
+                        discountTag: "FLAT DEAL",
                       },
                       orderabilityCommunication: {
                         title: {},
@@ -4180,10 +4004,167 @@ const data = {
                         "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
                     },
                     analytics: {
-                      context: "seo-data-e42cf220-a27c-4af8-b7f0-56fc09bfa674",
+                      context: "seo-data-939c185e-1adc-4313-9c56-56ae964266e7",
                     },
                     cta: {
                       link: "https://www.swiggy.com/restaurants/bakewell-cake-house-tolichowki-hyderabad-353915",
+                      text: "RESTAURANT_MENU",
+                      type: "WEBLINK",
+                    },
+                    widgetId:
+                      "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
+                  },
+                  {
+                    info: {
+                      id: "13434",
+                      name: "Cafe 555 & Aqeeq Restaurant",
+                      cloudinaryImageId: "r5ayymu2bfkse9yt3w3b",
+                      locality: "Masab Tank",
+                      areaName: "Masab Tank",
+                      costForTwo: "₹300 for two",
+                      cuisines: ["Biryani", "Chinese"],
+                      avgRating: 4.4,
+                      parentId: "19138",
+                      avgRatingString: "4.4",
+                      totalRatingsString: "10K+",
+                      sla: {
+                        deliveryTime: 35,
+                        lastMileTravel: 4.7,
+                        serviceability: "SERVICEABLE",
+                        slaString: "35-40 mins",
+                        lastMileTravelString: "4.7 km",
+                        iconType: "ICON_TYPE_EMPTY",
+                      },
+                      availability: {
+                        nextCloseTime: "2024-08-13 23:59:00",
+                        opened: true,
+                      },
+                      badges: {},
+                      isOpen: true,
+                      aggregatedDiscountInfoV2: {},
+                      type: "F",
+                      badgesV2: {
+                        entityBadges: {
+                          imageBased: {},
+                          textBased: {},
+                          textExtendedBadges: {},
+                        },
+                      },
+                      orderabilityCommunication: {
+                        title: {},
+                        subTitle: {},
+                        message: {},
+                        customIcon: {},
+                      },
+                      differentiatedUi: {
+                        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        differentiatedUiMediaDetails: {
+                          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+                          lottie: {},
+                          video: {},
+                        },
+                      },
+                      reviewsSummary: {},
+                      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      restaurantOfferPresentationInfo: {},
+                      externalRatings: {
+                        aggregatedRating: {
+                          rating: "4.0",
+                          ratingCount: "10K+",
+                        },
+                        source: "GOOGLE",
+                        sourceIconImageId:
+                          "v1704440323/google_ratings/rating_google_tag",
+                      },
+                      ratingsDisplayPreference:
+                        "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                    },
+                    analytics: {
+                      context: "seo-data-939c185e-1adc-4313-9c56-56ae964266e7",
+                    },
+                    cta: {
+                      link: "https://www.swiggy.com/restaurants/cafe-555-and-aqeeq-restaurant-masab-tank-hyderabad-13434",
+                      text: "RESTAURANT_MENU",
+                      type: "WEBLINK",
+                    },
+                    widgetId:
+                      "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
+                  },
+                  {
+                    info: {
+                      id: "496680",
+                      name: "Shree Golden Palace Restaurant",
+                      cloudinaryImageId: "thhf5lvskkq8nxazkyqv",
+                      locality: "Mahesh Nagar",
+                      areaName: "Mehdipatnam",
+                      costForTwo: "₹250 for two",
+                      cuisines: [
+                        "briyani",
+                        "South Indian",
+                        "Indian",
+                        "North Indian",
+                      ],
+                      avgRating: 4.1,
+                      parentId: "297690",
+                      avgRatingString: "4.1",
+                      totalRatingsString: "1K+",
+                      sla: {
+                        deliveryTime: 25,
+                        lastMileTravel: 1.3,
+                        serviceability: "SERVICEABLE",
+                        slaString: "20-25 mins",
+                        lastMileTravelString: "1.3 km",
+                        iconType: "ICON_TYPE_EMPTY",
+                      },
+                      availability: {
+                        nextCloseTime: "2024-08-14 01:59:00",
+                        opened: true,
+                      },
+                      badges: {},
+                      isOpen: true,
+                      type: "F",
+                      badgesV2: {
+                        entityBadges: {
+                          imageBased: {},
+                          textBased: {},
+                          textExtendedBadges: {},
+                        },
+                      },
+                      aggregatedDiscountInfoV3: {
+                        header: "₹40 OFF",
+                        subHeader: "ABOVE ₹179",
+                        discountTag: "FLAT DEAL",
+                      },
+                      orderabilityCommunication: {
+                        title: {},
+                        subTitle: {},
+                        message: {},
+                        customIcon: {},
+                      },
+                      differentiatedUi: {
+                        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        differentiatedUiMediaDetails: {
+                          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+                          lottie: {},
+                          video: {},
+                        },
+                      },
+                      reviewsSummary: {},
+                      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      restaurantOfferPresentationInfo: {},
+                      externalRatings: {
+                        aggregatedRating: {
+                          rating: "--",
+                        },
+                      },
+                      ratingsDisplayPreference:
+                        "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                    },
+                    analytics: {
+                      context: "seo-data-939c185e-1adc-4313-9c56-56ae964266e7",
+                    },
+                    cta: {
+                      link: "https://www.swiggy.com/restaurants/shree-golden-palace-restaurant-mahesh-nagar-mehdipatnam-hyderabad-496680",
                       text: "RESTAURANT_MENU",
                       type: "WEBLINK",
                     },
@@ -6919,7 +6900,7 @@ const data = {
             userAgent:
               "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
             gandalfRequest:
-              '{"sortAttribute":"relevance","isFiltered":false,"queryId":"seo-data-e42cf220-a27c-4af8-b7f0-56fc09bfa674","seoParams":{"apiName":"FoodHomePage","brandId":"","seoUrl":"www.swiggy.com","pageType":"FOOD_HOME_PAGE"}}',
+              '{"sortAttribute":"relevance","isFiltered":false,"queryId":"seo-data-939c185e-1adc-4313-9c56-56ae964266e7","seoParams":{"apiName":"FoodHomePage","brandId":"","seoUrl":"www.swiggy.com","pageType":"FOOD_HOME_PAGE"}}',
             id: "meta_data",
             metaInfo: {
               pageType: "FOOD_HOME_PAGE",
@@ -6944,8 +6925,8 @@ const data = {
     cacheExpiryTime: 240,
     nextFetch: 1,
   },
-  tid: "39733a0f-f574-4c5a-9276-dce86e6d7e39",
-  sid: "fee8f803-ba21-43c4-aa29-69d8f2c0f828",
-  deviceId: "922bcdee-41a8-0c7c-7f69-a931979179d3",
-  csrfToken: "13cAwZL96W3M-SCQV0WmG8V4DnB5EyEpPiLnJhUg",
+  tid: "7e5c77a0-b0a9-4f60-94ee-e763817f8841",
+  sid: "fid6fdde-e15c-4644-b6dd-d62461ad62cf",
+  deviceId: "8218f89a-82a4-6186-b381-fcc90d39a255",
+  csrfToken: "1LkTx8EBNQbQ-PvNu0vKNUgME6fGpSlbqzBG6ZdI",
 };

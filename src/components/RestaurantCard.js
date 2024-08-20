@@ -1,6 +1,4 @@
 const RestaurantCard = (props) => {
-  console.log("props", props.resData.info);
-
   const { name, cuisines, cloudinaryImageId, avgRating } = props.resData.info;
   const deliveryTime = props.resData.info.sla.deliveryTime;
   return (

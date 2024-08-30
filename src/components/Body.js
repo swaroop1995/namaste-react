@@ -2,6 +2,7 @@ import RestaurantCard from "./Restaurantcard";
 import { useEffect, useState } from "react";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
+import useOnlineStatus from "../utils/useOnlineStatus";
 
 const Body = () => {
   // local state variable-Super powerful variable
@@ -27,9 +28,15 @@ const Body = () => {
     );
   };
 
-  // if (listOfRestaurants.length === 0) {
-  //   return <Shimmer />;
-  // }
+  const onlineStatus = useOnlineStatus();
+  if (onlineStatus === false) {
+    return (
+      <h1>
+        !!OOps something went wrong seems to be a network connection issue
+      </h1>
+    );
+  }
+
   return listOfRestaurants.length === 0 ? (
     <Shimmer />
   ) : (
@@ -63,9 +70,9 @@ const Body = () => {
           className="filter-btn"
           onClick={() => {
             const filteredList = listOfRestaurants.filter(
-              (res) => res.info.avgRating == 3.7
+              (res) => res.info.avgRating > 4
             );
-            setFilteredList(filteredList);
+            setFilterList(filteredList);
           }}
         >
           Top rated Restaurant

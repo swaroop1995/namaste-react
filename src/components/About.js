@@ -1,5 +1,6 @@
+import UserContext from "../utils/UserContext";
 import UserClass from "./UserClass";
-import React from "react";
+import React, { useContext } from "react";
 // const About = () => {
 //   return (
 //     <div>
@@ -24,6 +25,9 @@ class About extends React.Component {
 
     return (
       <div>
+        <UserContext.Consumer>
+          {(value) => <h1>{value.loggedInUser}</h1>}
+        </UserContext.Consumer>
         <h1>About</h1>
         <h2>This is Namaste React Web Series</h2>
         <UserClass data={"child1"} />

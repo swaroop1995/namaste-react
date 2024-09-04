@@ -87,8 +87,9 @@ const Body = () => {
             Top rated Restaurant
           </button>
         </div>
-        <div className="">
-          <label>Username:</label>
+
+        {/* <div className="search m-4 p-4">
+          <label>UserName:</label>
           <input
             className="border border-black p-2"
             value={loggedInUser}
@@ -96,7 +97,7 @@ const Body = () => {
               setUserInfo(e.target.value);
             }}
           />
-        </div>
+        </div> */}
       </div>
 
       <div className="flex flex-wrap">
